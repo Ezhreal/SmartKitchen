@@ -57,17 +57,19 @@ A **SmartKitchen** é uma plataforma inovadora projetada para ajudar usuários a
 │   │       └── /unit            # Testes unitários para componentes
 │   │
 │   └── /mobile
-│       ├── /android             # Código específico para a versão Android
-│       ├── /ios                 # Código específico para a versão iOS
-│       ├── /src                 # Código-fonte compartilhado do aplicativo React Native
-│       │   ├── /components      # Componentes React Native reutilizáveis
-│       │   ├── /screens         # Telas do aplicativo (ex.: Home, Login)
-│       │   ├── /services        # Serviços para integração com a API
-│       │   ├── /assets          # Imagens, ícones, fontes, etc.
-│       │   └── /styles          # Arquivos de estilo (CSS, SASS, etc.)
-│       │
-│       └── /tests               # Testes para o aplicativo mobile
-│           └── /e2e             # Testes end-to-end para o aplicativo mobile
+        ├── /src
+        │   ├── /components      # Componentes React Native reutilizáveis
+        │   ├── /screens         # Telas do aplicativo (ex.: Home, Login)
+        │   ├── /services        # Serviços para integração com a API
+        │   ├── /assets          # Imagens, ícones, fontes, etc.
+        │   ├── /styles          # Arquivos de estilo (CSS, SASS, etc.)
+        │   └── /hooks           # Custom Hooks para React Native
+        │
+        ├── /android             # Código específico para a versão Android (se necessário)
+        ├── /ios                 # Código específico para a versão iOS (se necessário)
+        │
+        └── /tests
+            └── /e2e             # Testes end-to-end para o aplicativo mobile
 │
 ├── /ai
 │   ├── /models                  # Modelos de IA treinados
@@ -80,7 +82,7 @@ A **SmartKitchen** é uma plataforma inovadora projetada para ajudar usuários a
 │   └── /tests                   # Testes para modelos de IA
 │
 ├── /docs
-│   ├── /api                     # Documentação da API (ex.: Swagger, Postman)
+│   ├── /requirements            # Documentação da API (ex.: Swagger, Postman)
 │   ├── /architecture            # Diagramas e documentação arquitetural
 │   └── /user-guide              # Manual do usuário e documentação geral
 │
