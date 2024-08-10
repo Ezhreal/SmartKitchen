@@ -6,6 +6,9 @@ A **SmartKitchen** é uma plataforma inovadora projetada para ajudar usuários a
 ## Funcionalidades Principais
 - Gerenciamento completo de receitas.
 - Sugestão de receitas com base em ingredientes disponíveis.
+- Sugestão de receitas com base em restrição alimentar.
+- Ajudar a identificar nas receitas e pratos alergênicos (glúten, lactose, alergias gerais) de acordo com a configuração.
+- Sugestão através de IA para dietas especiais inclusas via arquivos (PDF, TXT, IMG).
 - Sugestões para datas especiais e ocasiões temáticas.
 - Aplicativo móvel para gerenciamento de receitas e listas de compras.
 - Reconhecimento de pratos a partir de fotos e sugestões automáticas de receitas.
