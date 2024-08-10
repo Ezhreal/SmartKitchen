@@ -10,6 +10,7 @@ A **SmartKitchen** é uma plataforma inovadora projetada para ajudar usuários a
 - Aplicativo móvel para gerenciamento de receitas e listas de compras.
 - Reconhecimento de pratos a partir de fotos e sugestões automáticas de receitas.
 - Futura integração com dispositivos como Alexa para controle por voz.
+- Integração internet das coisas (Ex. geladeira smart).
 
 ## Tecnologias Utilizadas
 - **Back-end:** C#, ASP.NET Core, SQL Server
