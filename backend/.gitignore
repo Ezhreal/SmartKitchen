@@ -1,0 +1,12 @@
+# Excluir pastas e arquivos do Visual Studio
+.vs/
+bin/
+obj/
+
+# Excluir logs e arquivos temporários
+*.log
+*.tmp
+
+# Excluir arquivos de configuração do ambiente
+appsettings.Development.json
+appsettings.Local.json
