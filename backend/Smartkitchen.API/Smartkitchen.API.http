@@ -1,0 +1,6 @@
+@Smartkitchen.API_HostAddress = http://localhost:5183
+
+GET {{Smartkitchen.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
