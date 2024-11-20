@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartkitchen.API", "Smartkitchen.API\Smartkitchen.API.csproj", "{7889C6C4-EE71-465F-AF30-79199C678EE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smartkitchen.API", "SmartKitchen.API\Smartkitchen.API.csproj", "{013B5A76-91F3-4CB9-A22C-0F9CE2FD53EA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.API", "RecipesAPI\Recipes.API.csproj", "{16A93406-2FC9-4F80-AB46-FA3EF35EF810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diets.API", "Diets.API\Diets.API.csproj", "{39FBF80F-2A63-49AC-AE4B-6C9A1F443852}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diets.API", "DietsAPI\Diets.API.csproj", "{CAF60206-A452-4BF2-BF8E-3683EA4AE69D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recipes.API", "Recipes.API\Recipes.API.csproj", "{3DE09334-459B-4BE8-BF92-13B6964F45B1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImageRecognition.API", "ImageRecognition.API\ImageRecognition.API.csproj", "{94693592-F840-433F-A50E-8C7BAAECA998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7889C6C4-EE71-465F-AF30-79199C678EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7889C6C4-EE71-465F-AF30-79199C678EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7889C6C4-EE71-465F-AF30-79199C678EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7889C6C4-EE71-465F-AF30-79199C678EE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{16A93406-2FC9-4F80-AB46-FA3EF35EF810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16A93406-2FC9-4F80-AB46-FA3EF35EF810}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16A93406-2FC9-4F80-AB46-FA3EF35EF810}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16A93406-2FC9-4F80-AB46-FA3EF35EF810}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CAF60206-A452-4BF2-BF8E-3683EA4AE69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CAF60206-A452-4BF2-BF8E-3683EA4AE69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CAF60206-A452-4BF2-BF8E-3683EA4AE69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CAF60206-A452-4BF2-BF8E-3683EA4AE69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013B5A76-91F3-4CB9-A22C-0F9CE2FD53EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013B5A76-91F3-4CB9-A22C-0F9CE2FD53EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013B5A76-91F3-4CB9-A22C-0F9CE2FD53EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013B5A76-91F3-4CB9-A22C-0F9CE2FD53EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FBF80F-2A63-49AC-AE4B-6C9A1F443852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FBF80F-2A63-49AC-AE4B-6C9A1F443852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FBF80F-2A63-49AC-AE4B-6C9A1F443852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FBF80F-2A63-49AC-AE4B-6C9A1F443852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DE09334-459B-4BE8-BF92-13B6964F45B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE09334-459B-4BE8-BF92-13B6964F45B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE09334-459B-4BE8-BF92-13B6964F45B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE09334-459B-4BE8-BF92-13B6964F45B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94693592-F840-433F-A50E-8C7BAAECA998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94693592-F840-433F-A50E-8C7BAAECA998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94693592-F840-433F-A50E-8C7BAAECA998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94693592-F840-433F-A50E-8C7BAAECA998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

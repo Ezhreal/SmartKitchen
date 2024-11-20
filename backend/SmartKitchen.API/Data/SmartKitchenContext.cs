@@ -9,6 +9,6 @@ namespace Smartkitchen.API.Data
         {
         }
 
-        public DbSet<User> Users { get; set; }
+        public DbSet<Users> Users { get; set; }
     }
 }
